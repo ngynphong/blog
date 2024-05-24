@@ -26,6 +26,20 @@
     text-decoration: none;
     color: aliceblue;
 }
-.body{
-    background-color: aqua;
+.home-page{
+    height: 630px;
+}
+.new-page{
+    height: 630px;
+}
+.new-page news content{
+    float: right;
+}
+.one-row{
+    display: flex;
+}
+.albums-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
