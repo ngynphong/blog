@@ -3,11 +3,15 @@
         {{#each courses}}
         <div class="col-sm-6 col-lg-4">
             <div class="card card-course-item">
+                <a href="/courses/{{this._id}}">
                 <img src="{{this.img}}" class="card-img-top" alt="...">
+                </a>
                 <div class="card-body">
+                    <a href="/courses/{{this._id}}">
                     <h5 class="card-title">{{this.name}}</h5>
+                    </a>
                     <p class="card-text">{{this.description}}</p>
-                    <a href="#" class="btn btn-primary">Enter Course</a>
+                    <a href="/courses/{{this_id}}" class="btn btn-primary">Enter Course</a>
                 </div>
             </div>
         </div>
