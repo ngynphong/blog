@@ -26,9 +26,7 @@
     text-decoration: none;
     color: aliceblue;
 }
-.home-page{
-    height: 630px;
-}
+
 .new-page{
     height: 630px;
 }
@@ -42,4 +40,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.card-course-item{
+    margin-top: 10px;
+}
+.img-albums{
+    background-color: black;
+    color: pink;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.text{
+    margin-left: 20px;
 }
